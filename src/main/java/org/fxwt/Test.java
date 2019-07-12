@@ -17,4 +17,9 @@ class TestApplication{
     public String hello(){
         return "hello";
     }
+
+    @RequestMapping("/login")
+    public String login(){
+        return "Welcome come to china!";
+    }
 }
